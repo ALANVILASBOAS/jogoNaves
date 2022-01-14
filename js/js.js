@@ -204,6 +204,7 @@ function start() { // Inicio da função start()
         // jogador com o inimigo2 
         if (colisao2.length > 0) {
 
+            energiaAtual--;
             inimigo2X = parseInt($("#inimigo2").css("left"));
             inimigo2Y = parseInt($("#inimigo2").css("top"));
             explosao2(inimigo2X, inimigo2Y);
